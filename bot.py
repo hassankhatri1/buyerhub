@@ -21,7 +21,7 @@ ADMIN_IDS = []
 DATABASE_PATH = 'bot_database.db'
 PORT = int(os.getenv('PORT', 8080))
 
-if not BOT_TOKEN or BOT_TOKEN == "YOUR_BOT_TOKEN_HERE":
+if not BOT_TOKEN or BOT_TOKEN == "8954923309:AAH2TCRRXcKnJIj1lUo3qpLqK5x2-qBYSyM":
     print("❌ BOT_TOKEN set karo!")
     sys.exit(1)
 
